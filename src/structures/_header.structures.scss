@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/// @todo create SCSS Structure
+
+
+/**
+ * Header bar with logo, navigation, and tool icons at the top of the page.
+ * Note: This is just a minified example.
+ *
+ * @structure Header
+ * @markup
+ *  <div class="SG-header">
+ *    <div class="SG-logo">
+ *      <div class="SG-ico SG-ico--logo SG-ico-lg"></div>
+ *      <div class="SG-logo__name">Nucleus</div>
+ *    </div>
+ *    <ul class="SG-nav">
+ *      <li>
+ *        <a href="nuclides.html" class="SG-nav__item">Nuclides</a>
+ *      </li>
+ *      <li>
+ *        <a href="atoms.html" class="SG-nav__item">Atoms</a>
+ *      </li>
+ *    </ul>
+ *    <ul class="SG-nav-icons">
+ *      <!-- ... -->
+ *    </ul>
+ *  </div>
+ */
+
+.header-logo {
+  background: $c-theme-1;
+  font-weight: 600;
+  color: $c-white;
+  padding: 1em;
+
+}
